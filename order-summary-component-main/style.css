@@ -1,0 +1,56 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+}
+h1,h4,p {
+    margin: 0;
+}
+.container {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 6px;
+}
+.secondary-container {
+    padding: 25px;
+}
+.heroimage {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: hsl(225, 100%, 98%);
+    padding: 12px;
+}
+.musicimage {
+    width: 30px;
+    height: 30px;
+}
+.body-p {
+    margin: 20px 0;
+
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+}
+ .btn-payment {
+    margin-bottom: 10px;
+    background-color: hsl(224, 23%, 55%);
+    color: white;
+    padding: 10px 0;
+    border: none;
+    border-radius: 8px;
+  }
+  .btn-order {
+    background-color: white;
+    border: none;
+    font-weight: bold;
+  }
